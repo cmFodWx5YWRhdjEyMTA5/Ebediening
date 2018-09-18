@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- CircularImageView for custom shape -->
+    <declare-styleable name="CircularImageView">
+
+        <!-- Specifies whether or not to draw a circular border around the image. -->
+        <attr name="border" format="boolean"></attr>
+        <!-- Specifies the color of the border draw around the image. (if enabled) -->
+        <attr name="border_color" format="color"></attr>
+        <!-- Makes the border this pixels wide. (if enabled) -->
+        <attr name="border_width" format="dimension"></attr>
+        <!-- Specifies whether or not to draw a selector on this view upon touch events. -->
+        <attr name="selector" format="boolean"></attr>
+        <!-- Specifies the color of the selector draw on top of the image upon touch events. (if enabled) -->
+        <attr name="selector_color" format="color"></attr>
+        <!-- Specifies the color of the selector stroke drawn around the image upon touch events. Be sure to provide some opacity. (if enabled) -->
+        <attr name="selector_stroke_color" format="color"></attr>
+        <!-- Makes the selector stroke drawn around the image upon touch events this pixels wide. (if enabled) -->
+        <attr name="selector_stroke_width" format="dimension"></attr>
+        <!-- Specifies whether or not to draw a shadow around your circular image. -->
+        <attr name="shadow" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomCircularImageViewTheme">
+        <attr name="circularImageViewStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="LabelView">
+        <attr name="label_distance" format="dimension" />
+        <attr name="label_height" format="dimension"/>
+        <attr name="label_strokeWidth" format="dimension"/>
+        <attr name="label_backgroundColor" format="color"/>
+        <attr name="label_strokeColor" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_textSize" format="dimension" />
+        <attr name="label_textStyle" format="enum" >
+            <enum name="NORMAL" value="0"/>
+            <enum name="BOLD" value="1"/>
+            <enum name="ITALIC" value="2"/>
+            <enum name="BOLD_ITALIC" value="3"/>
+        </attr>
+        <attr name="label_textColor" format="color"/>
+        <attr name="label_visual" format="boolean"/>
+        <attr name="label_orientation" format="enum">
+            <enum name="LEFT_TOP" value="1"/>
+            <enum name="RIGHT_TOP" value="2"/>
+            <enum name="LEFT_BOTTOM" value="3"/>
+            <enum name="RIGHT_BOTTOM" value="4"/>
+        </attr>
+    </declare-styleable>
+
+    <string-array name="dessert_names">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Gingerbread</item>
+        <item>Honeycomb</item>
+        <item>Ice-cream Sandwich</item>
+        <item>Jelly Bean</item>
+        <item>Kitkat</item>
+        <item>Lollipop</item>
+        <item>Marshmallow</item>
+        <item>Nougat</item>
+    </string-array>
+
+    <string-array name="dessert_descriptions">
+        <item>A small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup. As with larger cakes, icing and other cake decorations, such as candy, may be applied.</item>
+        <item>A type of fried dough confectionery or dessert food.</item>
+        <item>An oblong pastry made with choux dough filled with a cream and topped with icing.</item>
+        <item>Frozen yogurt is a frozen dessert made with yogurt and sometimes other dairy products. It is usually more tart than ice cream, as well as being lower in fat. It is different from ice milk and conventional soft serve.</item>
+        <item>Refers to a broad category of baked goods, typically flavored with ginger, cloves, nutmeg or cinnamon and sweetened with honey, sugar or molasses.</item>
+        <item>A mass of hexagonal wax cells built by honey bees in their nests to contain their larvae and stores of honey and pollen. Beekeepers may remove the entire honeycomb to harvest honey.</item>
+        <item>A frozen dessert consisting of ice cream between two wafers, cookies, or other similar biscuit.</item>
+        <item>Small bean-shaped sugar candies with soft candy shells and thick gel interiors. The confection comes in a wide variety of colors and flavors.</item>
+        <item>A chocolate-covered wafer bar confection created by Rowntree of York, England, and is now produced globally by Nestle.</item>
+        <item>A type of confectionery consisting of a sweetmeat of hard candy or water-ice mounted on a stick and intended for sucking or licking. Different informal terms are used in different places, including lolly, sucker, sticky-pop, etc.</item>
+        <item>A sugar-based confection that, in its modern form, typically consists of sugar, water and gelatin which is whipped to a spongy consistency, molded into small cylindrical pieces, and coated with corn starch.</item>
+        <item>A family of confections made with sugar or honey, roasted nuts, whipped egg whites, and sometimes chopped candied fruit. The consistency of nougat is chewy, and it is used in a variety of candy bars and chocolates.</item>
+    </string-array>
+    <string-array name="home_activities">
+        <item>FAB &amp; Toolbar Animation</item>
+        <item>Transparent Toolbar Test</item>
+        <item>Navigation Drawer</item>
+        <item>Toolbar Animation with Image</item>
+        <item>Material Style Tabs</item>
+        <item>Card View Toolbar</item>
+        <item>Quick Return Pattern</item>
+        <item>Reveal Animation</item>
+        <item>Gmail Style List with Bottom Sheet</item>
+        <item>Introductory View Pager</item>
+        <item>Bottom Navigation Bar</item>
+    </string-array>
+
+    <string-array name="home_activities_subtitle">
+        <item>G+ like on scroll hide animation</item>
+        <item>Overlaid transparent Toolbar</item>
+        <item>Material Design drawer with scrim</item>
+        <item>Using the new Support Design Library</item>
+        <item>Tab strip with Design Support Lib</item>
+        <item>Nested Toolbar in card</item>
+        <item>UI Pattern using Design Support Lib</item>
+        <item>Circular Reveal for pre Lollipop</item>
+        <item>Colored list icons with Bottom Sheets Google Maps style</item>
+        <item>Google style product tour</item>
+        <item>Using Design Support Library\'s BottomNavigationView</item>
+    </string-array>
+
+    <declare-styleable name="SimpleRatingBar">
+        <attr name="SRB_hideRatingNumber" format="boolean"/>
+        <attr name="SRB_size" format="dimension"/>
+        <attr name="SRB_maxRating" format="integer"/>
+        <attr name="SRB_filledIcon" format="string"/>
+        <attr name="SRB_unfilledIcon" format="string"/>
+        <attr name="SRB_textColor" format="color"/>
+        <attr name="SRB_filledIconColor" format="color"/>
+        <attr name="SRB_unfilledIconColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColorArcProgressBar">
+        <attr name="back_color" format="color"/>
+        <attr name="front_color1" format="color"/>
+        <attr name="front_color2" format="color"/>
+        <attr name="front_color3" format="color"/>
+        <attr name="back_width" format="dimension"/>
+        <attr name="front_width" format="dimension"/>
+        <attr name="is_need_title" format="boolean"/>
+        <attr name="is_need_content" format="boolean"/>
+        <attr name="is_need_unit" format="boolean"/>
+        <attr name="is_show_icon" format="boolean"/>
+        <attr name="is_need_dial" format="boolean"/>
+        <attr name="string_title" format="string"/>
+        <attr name="string_unit" format="string"/>
+        <attr name="total_engle" format="integer"/>
+        <attr name="current_value" format="float"/>
+        <attr name="max_value" format="float"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="DropAnimationView">
+        <!-- Animation rate, use px/s as a unit -->
+        <attr name="rate" format="integer" />
+
+        <!-- Minimum size of the falling view -->
+        <attr name="minSize" format="dimension" />
+
+        <!-- Maximum size of the falling view -->
+        <attr name="maxSize" format="dimension" />
+
+        <!-- The bigger view should be falling fast -->
+        <attr name="largePercent" format="fraction" />
+
+        <!-- Whether enable horizontal translation, default false -->
+        <attr name="xAnimate" format="boolean" />
+
+        <!-- Whether enable vertical translation, default true  -->
+        <attr name="yAnimate" format="boolean" />
+
+        <!-- Whether enable rotation, default false -->
+        <attr name="rotationAnimate" format="boolean" />
+    </declare-styleable>
+</resources>

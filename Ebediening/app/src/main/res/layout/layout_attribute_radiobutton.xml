@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioButton
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:text="Milk"
+        android:textColor="@color/gray_dark"
+        android:textSize="@dimen/text_small"
+        android:buttonTint="@color/gray_dark"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:text="Milk"
+        android:textColor="@color/gray_dark"
+        android:buttonTint="@color/gray_dark"
+        android:textSize="@dimen/text_small"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

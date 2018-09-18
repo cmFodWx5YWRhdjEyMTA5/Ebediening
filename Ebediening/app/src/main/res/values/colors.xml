@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="login_btn">#f38227</color>
+
+    <color name="transparent">#00ff0000</color>
+    <color name="fb_btn_color">#3B5998</color>
+    <color name="hint_color">#60FFFFFF</color>
+    <color name="no_account_color" >#40FFFFFF</color>
+    <color name="bacground_gray">#EBEBEB</color>
+    <color name="light_gray">#e1e0e0</color>
+    <color name="repeat_order">#d6d4d4</color>
+    <color name="green">#43b352</color>
+    <color name="green_d">#00FF41</color>
+
+    <color name="yellow">#FFFE45</color>
+    <color name="test">#fae0dc</color>
+    <color name="map_transparent">#030653f4</color>
+    <color name="map_border">#a20d56ef</color>
+
+    <color name="gray_dark">#7c7c7c</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray_40">#445F6760</color>
+    <color name="nav_bg_color">#363636</color>
+
+
+    <color name="red">#ff0000</color>
+
+</resources>

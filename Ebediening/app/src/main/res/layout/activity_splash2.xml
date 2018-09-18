@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ebediening.Utilites.SnowFlakesLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/snowflakelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    tools:context=".Splash2Activity">
+
+    <com.ebediening.Utilites.ColorArcProgressBar
+        android:id="@+id/color_bar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:back_color="@android:color/transparent"
+        app:back_width="5dp"
+        app:front_color1="@color/white"
+        app:front_width="5dp"
+        app:is_need_content="false"
+        app:is_need_unit="false"
+        app:max_value="100"
+        app:string_unit="百分比%"
+        app:total_engle="360" />
+
+    <ImageView
+        android:id="@+id/color_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/app_logo"
+        android:visibility="gone" />
+
+
+</com.ebediening.Utilites.SnowFlakesLayout>

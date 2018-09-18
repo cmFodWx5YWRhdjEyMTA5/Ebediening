@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_select_unselect"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_track"
+            android:icon="@drawable/trackorder_select_unselect"
+            android:title="Track Order" />
+        <item
+            android:id="@+id/nav_order_history"
+            android:icon="@drawable/orderhistory_select_unselect"
+            android:title="Order History" />
+
+
+        <item
+            android:id="@+id/nav_favo"
+            android:icon="@drawable/favo_select_unselect"
+            android:title="Favorites" />
+
+        <item
+            android:id="@+id/nav_reserv"
+            android:icon="@drawable/reserv_select_unselect"
+            android:title="Reservation" />
+
+        <item
+            android:id="@+id/nav_pro"
+            android:icon="@drawable/profile_select_unselect"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notif_select_unselect"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting_select_unselect"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout_select_unselect"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>
